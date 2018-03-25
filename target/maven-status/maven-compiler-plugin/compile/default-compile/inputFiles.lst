@@ -1,0 +1,10 @@
+/home/bnorbert/Github/Doctor932/src/main/java/model/Patient.java
+/home/bnorbert/Github/Doctor932/src/main/java/validator/PatientValidation.java
+/home/bnorbert/Github/Doctor932/src/main/java/validator/ConsultationValidation.java
+/home/bnorbert/Github/Doctor932/src/main/java/App.java
+/home/bnorbert/Github/Doctor932/src/main/java/ui/DoctorUI.java
+/home/bnorbert/Github/Doctor932/src/main/java/controller/DoctorController.java
+/home/bnorbert/Github/Doctor932/src/main/java/exceptions/ConsultationException.java
+/home/bnorbert/Github/Doctor932/src/main/java/exceptions/PatientException.java
+/home/bnorbert/Github/Doctor932/src/main/java/model/Consultation.java
+/home/bnorbert/Github/Doctor932/src/main/java/repository/Repository.java

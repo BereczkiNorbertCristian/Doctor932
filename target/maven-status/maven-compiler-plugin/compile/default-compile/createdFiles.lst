@@ -1,0 +1,10 @@
+model/Consultation.class
+ui/DoctorUI.class
+exceptions/ConsultationException.class
+exceptions/PatientException.class
+validator/PatientValidation.class
+validator/ConsultationValidation.class
+App.class
+repository/Repository.class
+controller/DoctorController.class
+model/Patient.class

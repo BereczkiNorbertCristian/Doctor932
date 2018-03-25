@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51caa78a-9564-4f6f-9265-b33b4bea7d81" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/App.class" afterPath="$PROJECT_DIR$/target/classes/App.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/DoctorController.class" afterPath="$PROJECT_DIR$/target/classes/controller/DoctorController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/exceptions/ConsultationException.class" afterPath="$PROJECT_DIR$/target/classes/exceptions/ConsultationException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/exceptions/PatientException.class" afterPath="$PROJECT_DIR$/target/classes/exceptions/PatientException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Consultation.class" afterPath="$PROJECT_DIR$/target/classes/model/Consultation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Patient.class" afterPath="$PROJECT_DIR$/target/classes/model/Patient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/repository/Repository.class" afterPath="$PROJECT_DIR$/target/classes/repository/Repository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ui/DoctorUI.class" afterPath="$PROJECT_DIR$/target/classes/ui/DoctorUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/validator/ConsultationValidation.class" afterPath="$PROJECT_DIR$/target/classes/validator/ConsultationValidation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/validator/PatientValidation.class" afterPath="$PROJECT_DIR$/target/classes/validator/PatientValidation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/controller/DoctorControllerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/controller/DoctorControllerTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DoctorNorbi.iml" afterPath="$PROJECT_DIR$/DoctorNorbi.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -121,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/DoctorNorbi.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -707,7 +694,7 @@
       <workItem from="1521008445820" duration="2479000" />
       <workItem from="1521010957823" duration="2957000" />
       <workItem from="1521985163646" duration="63000" />
-      <workItem from="1521985291173" duration="2285000" />
+      <workItem from="1521985291173" duration="2745000" />
     </task>
     <servers />
   </component>
@@ -744,7 +731,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7784000" />
+    <option name="totallyTimeSpent" value="8244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1061" extended-state="0" />
@@ -1055,7 +1042,7 @@
     <entry file="file://$PROJECT_DIR$/DoctorNorbi.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding />
         </state>
       </provider>
