@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51caa78a-9564-4f6f-9265-b33b4bea7d81" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/controller/DoctorController.class" afterPath="$PROJECT_DIR$/target/classes/controller/DoctorController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Consultation.class" afterPath="$PROJECT_DIR$/target/classes/model/Consultation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/model/Patient.class" afterPath="$PROJECT_DIR$/target/classes/model/Patient.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/repository/Repository.class" afterPath="$PROJECT_DIR$/target/classes/repository/Repository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ui/DoctorUI.class" afterPath="$PROJECT_DIR$/target/classes/ui/DoctorUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/validator/PatientValidation.class" afterPath="$PROJECT_DIR$/target/classes/validator/PatientValidation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lab2-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/lab2-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/controller/DoctorControllerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/controller/DoctorControllerTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/App.java" afterPath="$PROJECT_DIR$/src/main/java/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controller/DoctorController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/DoctorController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/exceptions/ConsultationException.java" afterPath="$PROJECT_DIR$/src/main/java/exceptions/ConsultationException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/exceptions/PatientException.java" afterPath="$PROJECT_DIR$/src/main/java/exceptions/PatientException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Consultation.java" afterPath="$PROJECT_DIR$/src/main/java/model/Consultation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Patient.java" afterPath="$PROJECT_DIR$/src/main/java/model/Patient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/repository/Repository.java" afterPath="$PROJECT_DIR$/src/main/java/repository/Repository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ui/DoctorUI.java" afterPath="$PROJECT_DIR$/src/main/java/ui/DoctorUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/validator/ConsultationValidation.java" afterPath="$PROJECT_DIR$/src/main/java/validator/ConsultationValidation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/validator/PatientValidation.java" afterPath="$PROJECT_DIR$/src/main/java/validator/PatientValidation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/controller/DoctorControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/controller/DoctorControllerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-controller.DoctorControllerTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-controller.DoctorControllerTest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/controller.DoctorControllerTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/controller.DoctorControllerTest.txt" />
     </list>
@@ -83,8 +67,8 @@
       <file leaf-file-name="DoctorControllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/controller/DoctorControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="33" />
+            <state relative-caret-position="425">
+              <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -754,7 +738,7 @@
       <workItem from="1521985163646" duration="63000" />
       <workItem from="1521985291173" duration="3877000" />
       <workItem from="1522086647843" duration="755000" />
-      <workItem from="1522091471953" duration="3880000" />
+      <workItem from="1522091471953" duration="4079000" />
     </task>
     <servers />
   </component>
@@ -791,7 +775,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14011000" />
+    <option name="totallyTimeSpent" value="14210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1061" extended-state="0" />
@@ -1252,8 +1236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/controller/DoctorControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="33" />
+        <state relative-caret-position="425">
+          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
