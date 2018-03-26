@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="controller.DoctorControllerTest" time="0.011" tests="7" errors="0" skipped="0" failures="0">
+<testsuite name="controller.DoctorControllerTest" time="0.006" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -58,11 +58,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="addPatientInvalidDigitsName" classname="controller.DoctorControllerTest" time="0.005"/>
-  <testcase name="addPatientInvalidFormatSSN" classname="controller.DoctorControllerTest" time="0.002"/>
-  <testcase name="addPatientInvalidNumberOfCharactersSSN" classname="controller.DoctorControllerTest" time="0.001"/>
+  <testcase name="addPatientInvalidDigitsName" classname="controller.DoctorControllerTest" time="0.006"/>
+  <testcase name="addPatientInvalidFormatSSN" classname="controller.DoctorControllerTest" time="0"/>
+  <testcase name="addPatientInvalidNumberOfCharactersSSN" classname="controller.DoctorControllerTest" time="0"/>
   <testcase name="addPatientNullAddress" classname="controller.DoctorControllerTest" time="0"/>
-  <testcase name="addPatient" classname="controller.DoctorControllerTest" time="0.002"/>
+  <testcase name="addPatient" classname="controller.DoctorControllerTest" time="0"/>
   <testcase name="addPatientNullSSN" classname="controller.DoctorControllerTest" time="0"/>
-  <testcase name="addPatientNullName" classname="controller.DoctorControllerTest" time="0.001"/>
+  <testcase name="addPatientNullName" classname="controller.DoctorControllerTest" time="0"/>
 </testsuite>
