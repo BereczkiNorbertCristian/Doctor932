@@ -45,6 +45,11 @@ public class DoctorControllerTest {
     }
 
     @Test(expected = PatientException.class)
+    public void addPatientInvalidNumberOfCharactersSSN2() throws PatientException {
+        controller.addPatient(new Patient("222222222222", "John", "ooo"));
+    }
+
+    @Test(expected = PatientException.class)
     public void addPatientInvalidFormatSSN() throws PatientException {
         controller.addPatient(new Patient("ds22222", "John", "ooo"));
     }
