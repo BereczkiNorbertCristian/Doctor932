@@ -1,10 +1,15 @@
 package controller;
 
+import exceptions.ConsultationException;
 import exceptions.PatientException;
+import model.Consultation;
 import model.Patient;
 import org.junit.Before;
 import org.junit.Test;
 import repository.Repository;
+
+import java.util.Arrays;
+import java.util.Collections;
 
 import static org.junit.Assert.*;
 
@@ -58,4 +63,20 @@ public class DoctorControllerTest {
     public void addPatientNullAddress() throws PatientException {
         controller.addPatient(new Patient("2222222222222", "John", null));
     }
+
+    @Test
+    public void addConsultation() throws ConsultationException {
+        controller.addConsultation("123","2222222222222","dummyDiagnostic", Arrays.asList("medicament1"),"2017-03-03");
+    }
+
+    @Test(expected = ConsultationException.class)
+    public void addConsultationNullSSN() throws ConsultationException {
+        controller.addConsultation("123",null, "dummy",Arrays.asList("med1"),"2017-03-03");
+    }
+
+    @Test(expected = ConsultationException.class)
+    public void addConsulationNullMeds() throws ConsultationException {
+        controller.addConsultation("123","2222222222222", "dummyDiag",null,"2017-03-03");
+    }
+
 }
