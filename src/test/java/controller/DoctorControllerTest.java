@@ -85,7 +85,7 @@ public class DoctorControllerTest {
     }
 
     @Test(expected = ConsultationException.class)
-    public void addConsulationNullMeds() throws ConsultationException {
+    public void addConsultationNullMeds() throws ConsultationException {
         controller.addConsultation("4","1111111111111", "scrofungulus",null,"2017-03-03");
     }
 
