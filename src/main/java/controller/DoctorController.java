@@ -54,7 +54,7 @@ public class DoctorController {
 
     public int getConsByID(String ID) {
         for (int i = 0; i < ConsultationList.size(); i++) {
-            if (ConsultationList.get(i).getConsID().compareTo(ID) == 0) {
+            if (ConsultationList.get(i).getConsID() == ID) {
                 /*
 				 * System.out.println("I proud to have found " + ID + " here: "
 				 * + i); System.out.println("Proof : " +
@@ -110,7 +110,7 @@ public class DoctorController {
                 e.printStackTrace();
             }
 
-            Patient p = new Patient();
+            Patient p;
             p = this.getPatientList().get(
                     this.getPatientBySSN(c.getPatientSSN()));
             p.setConsNum(p.getConsNum() + 1);

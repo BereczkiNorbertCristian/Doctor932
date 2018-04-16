@@ -8,6 +8,7 @@ import org.junit.Before;
 import org.junit.Test;
 import repository.Repository;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
@@ -22,9 +23,11 @@ public class DoctorControllerTest {
     private DoctorController controller;
 
     @Before
-    public void setUp() {
+    public void setUp() throws PatientException, ConsultationException {
         repository = new Repository("FilePatients.txt", "FileConsultations.txt");
         controller = new DoctorController(repository);
+        controller.addPatient(new Patient("1111111111111","Hermoine","London"));
+        controller.addConsultation("1","1111111111111","muggle-born",Arrays.asList("gillyweed"),"2018-03-03");
     }
 
     @Test
@@ -69,19 +72,45 @@ public class DoctorControllerTest {
         controller.addPatient(new Patient("2222222222222", "John", null));
     }
 
+//    START OF CONSULTATIONS TEST CASES
+
     @Test
     public void addConsultation() throws ConsultationException {
-        controller.addConsultation("123","2222222222222","dummyDiagnostic", Arrays.asList("medicament1"),"2017-03-03");
+        controller.addConsultation("5","1111111111111","scrofungulus", Arrays.asList("dittany"),"2017-03-03");
     }
 
     @Test(expected = ConsultationException.class)
     public void addConsultationNullSSN() throws ConsultationException {
-        controller.addConsultation("123",null, "dummy",Arrays.asList("med1"),"2017-03-03");
+        controller.addConsultation("4",null, "scrofungulus",Arrays.asList("dittany"),"2017-03-03");
     }
 
     @Test(expected = ConsultationException.class)
     public void addConsulationNullMeds() throws ConsultationException {
-        controller.addConsultation("123","2222222222222", "dummyDiag",null,"2017-03-03");
+        controller.addConsultation("4","1111111111111", "scrofungulus",null,"2017-03-03");
     }
 
+    @Test(expected = ConsultationException.class)
+    public void addConsultationNullDiag() throws ConsultationException {
+        controller.addConsultation("4","1111111111111", null, Arrays.asList("dittany"),"2017-03-03");
+    }
+
+    @Test(expected = ConsultationException.class)
+    public void addConsultationNullConsID() throws ConsultationException {
+        controller.addConsultation(null, "1111111111", "scrofungulus",Arrays.asList("dittany"),"2017-03-03");
+    }
+
+    @Test(expected = ConsultationException.class)
+    public void addConsultationMedsSizeZero() throws ConsultationException {
+        controller.addConsultation("4","1111111111111", "scrofungulus", Collections.EMPTY_LIST,"2017-03-03");
+    }
+
+    @Test(expected = ConsultationException.class)
+    public void addConsultationConsIDExists() throws ConsultationException {
+        controller.addConsultation("1","1111111111111","scrofungulus",Arrays.asList("dittany"),"2017-03-03");
+    }
+
+    @Test(expected = ConsultationException.class)
+    public void addConsultationPatientSSNDoesntExist() throws ConsultationException {
+        controller.addConsultation("4","9999999999999","scrofungulus",Arrays.asList("dittany"),"2017-03-03");
+    }
 }
