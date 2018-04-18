@@ -26,8 +26,12 @@ public class DoctorControllerTest {
     public void setUp() throws PatientException, ConsultationException {
         repository = new Repository("FilePatients.txt", "FileConsultations.txt");
         controller = new DoctorController(repository);
+
         controller.addPatient(new Patient("1111111111111","Hermoine","London"));
+        controller.addPatient(new Patient("2222333333333","Ron","Liverpool"));
+
         controller.addConsultation("1","1111111111111","muggle-born",Arrays.asList("gillyweed"),"2018-03-03");
+        controller.addConsultation("2","2222333333333","dragon-pox",Arrays.asList("dragonweed"),"2018-03-03");
     }
 
     @Test
@@ -112,5 +116,17 @@ public class DoctorControllerTest {
     @Test(expected = ConsultationException.class)
     public void addConsultationPatientSSNDoesntExist() throws ConsultationException {
         controller.addConsultation("4","9999999999999","scrofungulus",Arrays.asList("dittany"),"2017-03-03");
+    }
+
+    @Test
+    public void getPatientWithADisease() throws ConsultationException, PatientException {
+        assertEquals("Hermoine",controller.getPatientsWithDisease("muggle-born").get(0).getName());
+    }
+
+    @Test
+    public void integrateABC() throws PatientException, ConsultationException {
+        controller.addPatient(new Patient("1111222222222","Harry","Cambridge"));
+        controller.addConsultation("12","1111222222222","squibs-palsy",Arrays.asList("mandrake"),"2017-03-03");
+        assertEquals("Harry",controller.getPatientsWithDisease("squibs-palsy").get(0).getName());
     }
 }

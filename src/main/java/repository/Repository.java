@@ -164,7 +164,7 @@ public class Repository {
         in.close(); // append
         FileWriter fw = new FileWriter(patients);
         PrintWriter out = new PrintWriter(fw);
-        for (i = 1; i < sl.length - 1; i++)
+        for (i = 0; i < sl.length - 1; i++)
             out.println(sl[i]);
         out.println(p.toString());
         out.close();
