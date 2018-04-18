@@ -14,7 +14,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
-    <property name="test" value="controller.DoctorControllerTest#addConsultationNullMeds"/>
+    <property name="test" value="controller.DoctorControllerTest#addConsultationNullDiag"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/home/bnorbert/Github/Doctor932"/>
     <property name="java.runtime.version" value="1.8.0_151-b12"/>
@@ -42,7 +42,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=controller.DoctorControllerTest#addConsultationNullMeds verify"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=controller.DoctorControllerTest#addConsultationNullDiag verify"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -59,5 +59,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="addConsultationNullMeds" classname="controller.DoctorControllerTest" time="0.005"/>
+  <testcase name="addConsultationNullDiag" classname="controller.DoctorControllerTest" time="0.005"/>
 </testsuite>

@@ -129,4 +129,5 @@ public class DoctorControllerTest {
         controller.addConsultation("12","1111222222222","squibs-palsy",Arrays.asList("mandrake"),"2017-03-03");
         assertEquals("Harry",controller.getPatientsWithDisease("squibs-palsy").get(0).getName());
     }
+
 }
